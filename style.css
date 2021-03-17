@@ -1,0 +1,21 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  margin-right: 1px;
+}
+
+#example {
+  display: flex;
+  justify-content: space-between;
+}
+
+#challenge1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#challenge1 .div1 {
+  justify-content: flex-start;
+}
